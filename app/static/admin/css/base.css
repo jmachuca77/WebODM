@@ -278,7 +278,7 @@
   .admin-area select[multiple] {
     min-height: 150px; }
   .admin-area .button, .admin-area input[type=submit], .admin-area input[type=button], .admin-area .submit-row input, .admin-area a.button {
-    background: #18bc9c;
+    background: #24272d;
     padding: 10px 15px;
     border: none;
     border-radius: 4px;
@@ -324,7 +324,7 @@
     font-weight: 400;
     font-size: 13px;
     text-align: left;
-    background: #18bc9c;
+    background: #24272d;
     color: #fff; }
   .admin-area .module caption,
   .admin-area .inline-group h2 {
@@ -549,8 +549,8 @@
     border-bottom: 1px solid rgba(255, 255, 255, 0.25); }
   .admin-area #user-tools a:focus, .admin-area #user-tools a:hover {
     text-decoration: none;
-    border-bottom-color: #18bc9c;
-    color: #18bc9c; }
+    border-bottom-color: #24272d;
+    color: #24272d; }
   .admin-area #content-related {
     background: #f8f8f8; }
   .admin-area #content-related .module {

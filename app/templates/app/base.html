@@ -29,7 +29,7 @@
     {% load render_bundle from webpack_loader %}
     {% render_bundle 'main' %}
 
-    <title>{{title|default:"Login"}} - WebODM</title>
+    <title>{{title|default:"Login"}} - Element Aero</title>
 </head>
 <body data-admin-utc-offset="{% now "Z" %}">
     <!--[if lt IE 8]>
@@ -62,8 +62,8 @@
                     <span class="icon-bar"></span>
                 </button>
                 {% block navbar-top-links %}{% endblock %}
-                <a class="navbar-brand" href="/"><img src="{% static 'app/img/logo36.png' %}" alt="WebODM" /></a>
-                <a class="navbar-link" href="/"><p class="navbar-text">WebODM</a></p>
+                <a class="navbar-brand" href="/"><img src="{% static 'app/img/logo36.png' %}" alt="Element Aero" /></a>
+                <a class="navbar-link" href="/"><p class="navbar-text">Element Aero</a></p>
             </div>
 
             {% block navbar-sidebar %}{% endblock %}
