@@ -9,7 +9,7 @@ html, body, #wrapper, #page-wrapper, section.main, .content{
     top: 0;
     height: 50px;
     min-height: 50px;
-    background-color: #18bc9c;
+    background-color: #24272d;
     z-index: 99999;
 
     .navbar-header{
@@ -216,6 +216,7 @@ button i.glyphicon{
 .navbar-text {
 	position: absolute;
 	font-family: 'Titillium Web', sans-serif;
+	font-weight: 300; 
 	top: 0px;
 	left: 50px;
 }
